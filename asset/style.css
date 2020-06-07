@@ -1,0 +1,147 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.wrap-content {
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+
+}
+
+.information p {
+    color: gray;
+    font-size: 16px;
+}
+
+.information {
+    margin-top: -35px;
+    background-color: #dbdbdb;
+}
+
+.content-image {
+    width: 64px;
+    height: 64px;
+    background-color: #5525ED;
+    border-radius: 50%;
+    padding: 20px;
+    margin: auto;
+}
+
+.icon {
+    font-size: 26px;
+    color: white;
+}
+
+.service h6 {
+font-weight: 600;
+}
+
+.paragraf {
+    font-size: 14px;
+    color: grey;
+}
+
+.footer {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* navbar & logo */
+.navbar-brand {
+    font-weight: 600;
+    color: black !important;
+}
+
+.nav-item {
+    font-size: 14px;
+    font-weight: 600;
+    color: black !important;
+}
+
+.nav-item.active{
+    color: #5525ED !important;
+}
+
+.nav-item:hover {
+    color: rgb(155, 154, 156) !important;
+}
+
+.nav-item {
+    margin-right: 24px;
+    color: white;
+}
+
+/* jumbotron */
+.jumbotron {
+    height: 400px; 
+    background-image: url('image/jumbotron/1.jpg');
+    background-size: cover;  /*membuat image sesuai dengan ukuran asli*/
+    background-repeat: no-repeat; /*membuat image */
+    margin-top: -70px;
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+.text-jumbotron {
+    margin-top: 150px;
+    color: white;
+}
+
+.text-jumbotron h1 {
+    font-weight: 400 !important;
+    font-size: 24px;
+}
+
+.text-jumbotron p {
+    font-size: 14px;
+}
+
+/*Costume Color*/
+.bg-ungu {
+background-color: #5525ED !important;
+border: 0;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+
+/* dekstop view (media query) */
+@media (min-width: 992px) {
+
+.navbar{
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-item {
+    color: white !important;
+}
+
+.jumbotron {
+    height: 500px;
+}
+
+.text-jumbotron {
+    margin-top: 130px;
+    color: white;
+}
+
+.text-jumbotron h1 {
+    font-weight: 400 !important;
+    font-size: 48px;
+}
+
+.text-jumbotron p {
+    font-size: 18px;
+}
+
+}
